@@ -13,7 +13,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
           logoSrc="/images/logo.svg"
-          logoAlt="MemeSite Logo"
           navItems={[{ name: 'Hero', id: 'hero' }, { name: 'About', id: 'about' }, { name: 'How to Buy', id: 'how-to-buy' }, { name: 'Tokenomics', id: 'tokenomics' }, { name: 'Footer', id: 'footer' }]}
           buttonText="Get started"
         />
@@ -56,7 +55,6 @@ export default function Home() {
       <div id="footer" data-section="footer" className="scroll-mt-24">
         <FooterBase
           logoSrc="/images/logo.svg"
-          logoAlt="MemeSite Logo"
           copyrightText="© 2023 MemeSite. All rights reserved."
           columns={[
             { title: "About", items: [{ label: "Company", onClick: () => {} }, { label: "Careers", onClick: () => {} }] },
