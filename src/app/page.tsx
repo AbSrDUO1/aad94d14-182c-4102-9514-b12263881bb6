@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutFloatingInline from '@/components/navigation/NavbarLayoutFloatingInline';
 import SplitHero from '@/components/sections/layouts/hero/SplitHero';
@@ -6,7 +6,6 @@ import CtaAbout from '@/components/sections/layouts/about/CtaAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import TextGridTokenomics from '@/components/sections/layouts/tokenomics/TextGridTokenomics';
 import FooterBase from '@/components/footer/FooterBase';
-import { ButtonIconArrow } from 'lucide-react';
 
 export default function Home() {
   return (
